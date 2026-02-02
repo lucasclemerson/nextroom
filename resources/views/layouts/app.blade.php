@@ -15,6 +15,34 @@
         body {
             font-family: 'Nunito', sans-serif;
         }
+
+        /* largura */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* trilho */
+        ::-webkit-scrollbar-track {
+            background: #0f172a; /* slate-900 */
+        }
+
+        /* barra */
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(180deg, #3b82f6, #1d4ed8);
+            border-radius: 10px;
+        }
+
+        /* hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(180deg, #60a5fa, #2563eb);
+        }
+
+        /* Firefox */
+        * {
+            scrollbar-width: thin;
+            scrollbar-color: #3b82f6 #0f172a;
+        }
+
     </style>
 </head>
 

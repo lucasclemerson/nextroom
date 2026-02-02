@@ -1,7 +1,6 @@
-<header class="bg-slate-800 shadow-lg">
+<header class="bg-slate-800 shadow-lg fixed w-full top-0 z-50">
     <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 class="text-2xl font-bold text-blue-400">NextRoom</h1>
-
+        <h1 class="text-2xl font-bold text-blue-400">NextRoom <img src="{{ asset('images/logo.png') }}" alt="NextRoom Logo" class="mx-0 px-0 w-10 h-auto inline-block"></h1>
         <nav class="space-x-6 text-sm">
             <a href="/" class="hover:text-blue-400">Home</a>
             <a href="/dashboard" class="hover:text-blue-400">Dashboard</a>
